@@ -28,3 +28,11 @@
   height: 100%;
   position: relative;
 }
+
+/* device responsiveness */
+
+@media screen and (max-width: 480px) {
+  .container {
+    height: 50vh;
+  }
+}
